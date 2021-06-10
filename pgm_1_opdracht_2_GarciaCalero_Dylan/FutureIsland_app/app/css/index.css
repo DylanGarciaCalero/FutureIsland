@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div#concert-filter{
+    padding: 1.5rem 0;
+}
+
+.filterFlex{
+    display: flex;
+    list-style: none;
+}
+
+.filterFlex a {
+    text-decoration: none;
+    padding: 0 1rem;
+    color: #0000ff
+}
+
+.filterFlex li {
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+.filterFlex a:hover{
+    color:black;
+}
+
+div#header {
+    background-image: url(https://assets.rockwerchter.be/layout/frontend/img/svg/pattern-2021.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 20rem;
+    display: flex;
+}
+div#header .logo {
+    padding: 1rem;
+}
+
+div#header nav {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 4rem;
+}
+
+#container-concert {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#header ul {
+    background-image: linear-gradient(to right, #623dfc, #fa6c0a);
+    display:flex;
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+    max-width: 80rem;
+}
+
+iframe {
+    margin-left: 0.2rem;
+}
+
+#header ul li a {
+    line-height: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+#header ul li a:hover {
+    color: black;
+}
+
+
+.lijstKopen {
+    background-color: black;
+}
+
+.footerFlexSocials {
+    display:flex;
+    list-style: none;
+    text-decoration:none;
+    height:5rem;
+    padding: 2rem 2rem;
+    background-color: #000099;
+}
+
+.footerFlexSocials svg {
+    height: 60%;
+    padding: 1rem 0rem;
+}
+
+.footerFlexInfo {
+    display:flex;
+    text-decoration:none;
+    padding: 0rem 4rem 3rem 4rem;
+    background-color: #000099;
+}
+
+.footerFlexInfo h2 a {
+    color:white;
+    text-decoration: none;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+}
+
+.footerFlexInfo ul {
+    flex-direction: row;
+    width:33.33%;
+}
+
+.footerFlexInfo ul li{
+    list-style:none;
+    text-decoration:none;
+    color: white;
+}
+
+.footerFlexInfo ul li a{
+    color: #bfbfe5;
+    padding: 0.2rem;
+    font-size: 1.1rem;
+    text-decoration:none;
+}
+.synopsisTekst {
+    font-size: 1rem;
+    line-height: 28px;
+    margin-top: 5rem;
+    margin-right: 65rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    width: 47%;
+}
+
+.socialsPerGroup {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    list-style: none;
+    line-height: 1.5rem;
+}
+
+.socialsDelen {
+    margin: 3rem 0;
+    display:flex;
+    list-style:none;
+}
+
+.socialsDelen p {
+    padding: 0.5rem;
+    background-color: #1a1a1a;
+    color:white;
+    text-transform:uppercase;
+    margin: 0.5 0rem;
+    text-align: center;
+
+}
+
+.socialsDelen li {
+    padding: 0.5rem;
+}
+
+.socialsDelen svg {
+    fill: white;
+    margin-right: 1rem;
+}
+
+.socialsDelen .firstDelenLink {
+    background-color: #d65300;
+}
+
+.socialsDelen .secondDelenLink {
+    background-color: #0000ff;
+}
+
+.socialsDelen a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    margin: 0 0.5rem;
+    color: white;
+    text-transform:uppercase;
+}
+
+.afbeeldingInSynopsis {
+    margin-top: 1rem;
+    width: 47%;
+    border: solid 0.2rem white;
+}
+
+#countdown {
+    padding: 2rem;
+    margin-top: 1rem;
+    color: white;
+    font-size: 6rem;
+    line-height: 6rem;
+    text-align: center;
+    background-color:#1a1a1a;
+}
+
+.box {
+    width:100%;
+    height:100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    border: solid 0.2rem white;
+    display:flex;
+    position:relative;
+}
+
+.box ul {
+    display:flex;
+}
+
+.box:hover {
+    
+    background-size: 135%;
+}
+
+#container-concert article {
+    position: relative;
+    display: flex;
+    width: 33.33%;
+    height: 26rem;
+}
+
+#container-concert h1 {
+    font-size: 3rem;
+    padding: 1rem;
+    position:absolute;
+    bottom: 1rem;
+    left: 1rem;
+    background-image: linear-gradient(270deg, cyan 0%, #643cfa 50%, #ff690a 100%);
+    z-index: 3;
+    height: 4rem;
+}
+
+#container-concert ul li {
+    list-style: none;
+}
+
+.myDiv {
+    position: relative;
+}
+
+.myDiv h1 {
+    position: absolute;
+    left: 1rem;
+    top: 32rem;  
+    background-image: linear-gradient(270deg, cyan 0%, #643cfa 50%, #ff690a 100%);
+    padding: 0.5rem;
+}
+
+.myDiv li {
+    position: absolute;
+    left: 1rem;
+    top: 29.7rem;
+    list-style: none;
+    padding: 0.5rem;
+    background-color: white;
+}
+
+#container-concert ul {
+    display: flex;
+    position: absolute;
+    bottom: 7rem;
+    left: 1rem;
+}
+
+#container-concert ul li.flexFirst{
+    color: white;
+    font-size: 2rem;
+    padding: 0.2rem 1rem;
+    background-color:#0000fe;
+    z-index: 3;
+}
+#container-concert ul li.flexSecond{
+    font-size: 2rem;
+    padding: 0.2rem 1rem;
+    background-color: white;
+    z-index: 3;
+}
